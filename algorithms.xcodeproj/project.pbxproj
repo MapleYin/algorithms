@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F5F623272452C47700B863BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F623262452C47700B863BE /* main.cpp */; };
 		F5F62333245329C300B863BE /* 46_Permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5F62331245329C300B863BE /* 46_Permutations.cpp */; };
+		F5FB81C324543F910037D92C /* 9_Palindrome_Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5FB81C124543F910037D92C /* 9_Palindrome_Number.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F5F623262452C47700B863BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F5F62331245329C300B863BE /* 46_Permutations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 46_Permutations.cpp; sourceTree = "<group>"; };
 		F5F62332245329C300B863BE /* 46_Permutations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 46_Permutations.hpp; sourceTree = "<group>"; };
+		F5FB81C124543F910037D92C /* 9_Palindrome_Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9_Palindrome_Number.cpp; sourceTree = "<group>"; };
+		F5FB81C224543F910037D92C /* 9_Palindrome_Number.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 9_Palindrome_Number.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		F5F623252452C47700B863BE /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				F5FB81C024543F780037D92C /* 9_Palindrome_Number */,
 				F5F6232D2453299100B863BE /* 46_Permutations */,
 				F5F623262452C47700B863BE /* main.cpp */,
 			);
@@ -73,6 +77,15 @@
 				F5F62332245329C300B863BE /* 46_Permutations.hpp */,
 			);
 			path = 46_Permutations;
+			sourceTree = "<group>";
+		};
+		F5FB81C024543F780037D92C /* 9_Palindrome_Number */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB81C124543F910037D92C /* 9_Palindrome_Number.cpp */,
+				F5FB81C224543F910037D92C /* 9_Palindrome_Number.hpp */,
+			);
+			path = 9_Palindrome_Number;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB81C324543F910037D92C /* 9_Palindrome_Number.cpp in Sources */,
 				F5F62333245329C300B863BE /* 46_Permutations.cpp in Sources */,
 				F5F623272452C47700B863BE /* main.cpp in Sources */,
 			);
